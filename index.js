@@ -44,7 +44,7 @@ function findTheCheese (foods) {
 for(let i = 0 ; i < foods.length; i++){
   // || is our or condiitonal
 if(foods[i] === "cheddar" ||  foods[i] === "gouda" ||  foods[i] === "camembert"){
-  // this ensures we return our first case of cheese . 
+  // this ensures we return our first case of cheese .
 return foods[i]
 }
 }
