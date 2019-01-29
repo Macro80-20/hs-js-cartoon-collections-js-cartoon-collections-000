@@ -59,7 +59,7 @@ function wordWithB(arr){
   if (arr[i].startsWith("b")) {
   array.push(arr[i])
   console.log(array)
-  return array;
-    }
+  }
+    return array;
 }
 wordWithB(a1);
