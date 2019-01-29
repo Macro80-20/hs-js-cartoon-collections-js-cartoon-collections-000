@@ -50,3 +50,15 @@ return foods[i]
 }
 return "no cheese!"
 }
+
+let a1 = [ "re","be","br"]
+function wordWithB(arr){
+  let array = [];
+  for(let i = 0; i< arr.length; i++)
+  // conditional for when we find b
+  if (arr[i].startsWith("b")) {
+  array.push(arr[i])
+  console.log(array)
+    }
+}
+wordWithB(a1);
