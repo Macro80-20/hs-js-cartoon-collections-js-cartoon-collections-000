@@ -3,15 +3,14 @@ const planeteerCalls1 = ["earth", "wind", "fire", "water", "heart"]
 
 function dwarfRollCall(dwarves) {
   let arr1 = []
- let string = ""
-for ( let i= 0; i<dwarves.length; i++){
- // pushing the elements with 1. /2. and so on  + whitepace  + the index value
- console.log(arr1.push((i+1)+"." + " " + dwarves[i]))
-
-}
+  let string = ""
+  for ( let i= dwarves.length/2; i<dwarves.length; i++){
+   // pushing the elements with 1. /2. and so on  + whitepace  + the index value
+   console.log(arr1.push((i+1)+"." + " " + dwarves[i]))
+  }
 // the " " inside join() removed the commas from array and i added whitespace at the end
-console.log(string = arr1.join(" ") + " ");
-return string
+  console.log(string = arr1.join(" ") + " ");
+  return string
 }
 dwarfRollCall(names)
 
@@ -54,12 +53,12 @@ return "no cheese!"
 let a1 = [ "re","be","br"]
 function wordWithB(arr){
   let array = [];
-  for(let i = 0; i< arr.length; i++)
-  // conditional for when we find b
-  if (arr[i].startsWith("b")) {
-  array.push(arr[i])
-  console.log(array)
+  for(let i = 0; i< arr.length; i++){
+    // conditional for when we find b
+    if (arr[i].startsWith("b")) {
+      array.push(arr[i])
+    }
   }
-    return array;
+  return array;
 }
 wordWithB(a1);
